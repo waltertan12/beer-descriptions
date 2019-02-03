@@ -1,6 +1,6 @@
 (async () => {
     const getBeerDescriptions = async () => {
-        const data = await fetch('../beer-descriptions.json');
+        const data = await fetch('beer-descriptions.json');
         return await data.json();
     };
     const beerDescriptions = await getBeerDescriptions();
