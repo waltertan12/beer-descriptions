@@ -168,9 +168,9 @@
     const format = d3.format(",d");
 
     const svg = d3.select(DOM.svg(width, width))
-        .style("width", "100%")
-        .style("height", "auto")
-        .style("font", "12px Helvetica");
+        .style("width", "auto")
+        .style("height", "100%")
+        .style("font", "14px Helvetica");
 
     const g = svg.append("g")
         .attr("transform", `translate(${width / 2},${width / 2})`);
